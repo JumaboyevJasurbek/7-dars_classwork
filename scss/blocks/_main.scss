@@ -1,0 +1,29 @@
+.box1 {
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 1400px) {
+    .box1 {
+        border: 1px solid #cccccc;
+        background-color: red;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .box1 {
+        border: 1px solid #cccccc;
+        border-radius: 25%;
+        background-color: yellow;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .box1 {
+        border: 1px solid #cccccc;
+        border-radius: 50%;
+        background-color: green;
+    }
+}
